@@ -1,0 +1,182 @@
+#container{
+    width: 100%;
+    height: 700px;
+    border: 1px solid black;
+    display: flex;
+}
+
+#box1{
+    width: 600px;
+    height: 100%;
+    border: 1px solid blue;
+    background-image: url("https://images.unsplash.com/photo-1654789203543-094b2a499d21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
+   
+}
+
+#img{
+    width: 5%;
+    height: 50px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+#pTag{
+    color: white;
+    font-size: 55px;
+    font-weight: 700px;
+    margin-top: 31%;
+    margin-left: 80px;
+
+}
+#pTag2{
+    color: white;
+    font-size: 22px;
+    line-height: 35px;
+}
+#box2{
+    width: 65%;
+    margin-left: 80px;
+    margin-top: -30px;
+}
+#pTag3{
+    color: white;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+#box3{
+    width: 40%;
+    /* border: 1px solid red; */
+    margin-left: 100px;
+    margin-top: 10px;
+    /* overflow: hidden; */
+}
+
+#box3 > h1{
+    font-size: 55px;
+    margin-left : 140px;
+}
+#p1{
+    margin-left: 180px;
+    margin-top: -20px;
+    font-size: 17px;
+}
+#div1{
+    width: 70%;
+    height: 38px;
+    /* border: 1px solid blue; */
+    margin-left: 100px;
+    display: flex;
+    background-color: blue;
+    cursor: pointer;
+}
+
+#p2{
+    margin-top: 8px;
+    margin-left: 20px; 
+    color: white;
+}
+
+#div1 > img{
+    margin-left: 110px;
+    margin-top: 8px;
+    width: 8%;
+    height: 19px;
+    background-color: blue;
+}
+h5{
+    margin-left: 300px;
+}
+#inputDiv1{
+    display: flex;
+    margin-left: 100px;
+    width: 100%;
+    margin-top: -20px;
+    
+}
+
+#indiv1 > input{
+    height: 30px;
+    width: 100%;
+    margin-left: 10px;
+}
+#indiv2 > input{
+    height: 30px;
+    width: 90%;
+    margin-left: 45px;
+}
+#indiv1 > p{
+    margin-left: 10px;
+    font-size: 16px;
+}
+#indiv2 > p{
+    margin-left: 45px;
+    font-size: 16px;
+}
+
+#inputDiv2{
+    margin-left: 100px;
+}
+#inputDiv2 > p{
+    margin-left: 10px;
+    font-size: 16px;
+}
+#inputDiv2 > input{
+    margin-left: 10px;
+    width: 80%;
+    height: 30px;
+}
+#inputDiv3{
+    margin-left: 100px;
+}
+#inputDiv3 > p{
+    margin-left: 10px;
+}
+
+#inputDiv3 > input{
+    margin-left: 10px;
+    width: 80%;
+    height: 30px;
+}
+#inputDiv4{
+    margin-left: 100px;
+}
+#inputDiv4 > p{
+    margin-left: 10px;
+}
+#inputDiv4 >input{
+    margin-left: 10px;
+    width: 80%;
+    height: 30px;
+}
+#inputDiv5{
+    margin-left: 110px;
+    width: 68%;
+    height: 30px;
+    border: 1px solid black;
+    background-color: black;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#inputDiv5 > p{
+    color: white;
+    margin-left: 46%;
+    margin-top: 4px;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+#p3{
+    margin-left: 180px;
+    color: grey;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.span1{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#inputDiv5 > p > button{
+    background: none;
+    color: white;
+    cursor: pointer;
+}
